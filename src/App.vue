@@ -1,6 +1,6 @@
 <template>
   <div id="app" :class="typeof weather.main  != 'undefined' && weather.main.temp > 16 ? 'warm' : ''">
-    <h1>OB-HAVO</h1>
+    <h1>WEATHER</h1>
     <main>
       <div class="search__box">
         <input 
